@@ -1,0 +1,175 @@
+@tailwind base;
+
+@import '@fontsource/dm-sans/index.css';
+@import 'react-virtualized/styles.css';
+@import 'rc-slider/assets/index.css';
+@import './variables.css';
+
+@tailwind components;
+
+@tailwind utilities;
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+html {
+  height: 100%;
+  box-sizing: border-box;
+  touch-action: manipulation;
+  font-feature-settings: 'case' 1, 'rlig' 1, 'calt' 0;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+html,
+body {
+  font-family: var(--font-sans);
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: var(--primary);
+  color: var(--text-primary);
+}
+
+body {
+  position: relative;
+  margin: 0;
+  min-height: 100%;
+}
+
+a {
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+button:focus {
+  outline: none;
+}
+
+input:focus {
+  box-shadow: none;
+  outline: none;
+}
+
+.striped-background {
+  background: repeating-linear-gradient(45deg, #161522, #161522 10px, #0d0415 10px, #0d0415 20px);
+}
+
+
+body {
+  position: relative;
+  margin: 0;
+  min-height: 100%;
+  background: url(../../public/images/bg_back.png);
+  background-size: cover;
+background-attachment: fixed;
+}
+
+
+#connect-wallet{
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+linear-gradient(113.23deg, #C0884A 13.69%, #E9CF7E 75.09%) !important;
+color: #000;
+
+}
+.from-opaque-blue{
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+  linear-gradient(113.23deg, #C0884A 13.69%, #E9CF7E 75.09%) !important;
+  color: #000 !important;
+}
+.input_box_bg{
+  background: #25252B !important;
+border-radius: 20px !important;
+}
+.bg-dark-800 {
+	background: #44444E;
+}
+.gradion_text {
+	text-transform: capitalize;
+	background: linear-gradient(85.02deg, #C3BA53 0.75%, #C0884A 0.76%, #FAC579 42.64%, #A3743C 96.97%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	font-size: 20px;
+	font-family: "Poppins", sans-serif;
+  }
+  .font_size_clooe {
+    text-align: center;
+    font-size: 50px;
+    font-weight: 600;
+    margin-bottom: 42px;
+  }
+ .model_bg{
+  background: #25252B;
+ } 
+.hover_white_in_deiv > div:hover{
+  border-color: #fff !important;
+}
+.hover\:border-blue:hover{
+  border-color: #fff !important;
+}
+.height_400{
+  height: 400px;
+}
+
+#swap-button, #confirm-expert-mode, #confirm-swap-or-send{
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+  linear-gradient(113.23deg, #C0884A 13.69%, #E9CF7E 75.09%) !important;
+  color: #000 !important;
+}
+.from-blue{
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+  linear-gradient(113.23deg, #C0884A 13.69%, #E9CF7E 75.09%) !important;
+}
+
+.color_gadion button{
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+  linear-gradient(113.23deg, #C0884A 13.69%, #E9CF7E 75.09%) !important;
+  color: #000 !important;
+}
+.font-size-20{
+  font-size: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+/**::-webkit-scrollbar {*/
+/*  width: var(--scrollbar-width);*/
+/*}*/
+
+/*::-webkit-scrollbar-track-piece:start {*/
+/*  background: transparent url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAQAAAAD+Fb1AAAADklEQVR42mNkgAJG3AwAAH4ABWjFc8IAAAAASUVORK5CYII=) repeat-y !important;*/
+/*}*/
+
+/*::-webkit-scrollbar-track-piece:end {*/
+/*  background: transparent url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAQAAAAD+Fb1AAAADklEQVR42mNkgAJG3AwAAH4ABWjFc8IAAAAASUVORK5CYII=) repeat-y !important;*/
+/*}*/
+
+/**::-webkit-scrollbar-thumb {*/
+/*  border: 3px solid rgba(0, 0, 0, 0);*/
+/*  background-clip: padding-box;*/
+/*  border-radius: 9999px;*/
+/*  background-color: #BFBFBF;*/
+/*}*/
+
+input[type=datetime-local]::-webkit-calendar-picker-indicator {
+  background-image: url('../../public/images/datepicker-icon.svg')
+}
+
+/* if backdrop support: very transparent and blurred */
+@supports not ((-webkit-backdrop-filter: none) or (backdrop-filter: none)) {
+  .backdrop-blur-fallback {
+    background-color: var(--primary);
+  }
+}
