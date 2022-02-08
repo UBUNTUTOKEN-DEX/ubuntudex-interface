@@ -1,5 +1,5 @@
 import { createSelector, createSlice, PayloadAction } from '@reduxjs/toolkit'
-import { Pair } from '@sushiswap/core-sdk'
+import { Pair } from 'ubuntucoresdk'
 import { AvailablePoolConfig } from 'app/components/Migrate/migrate-utils'
 import { TridentPool } from 'app/services/graph'
 import { AppState } from 'app/state'

@@ -1,5 +1,5 @@
 import { SwitchHorizontalIcon } from '@heroicons/react/outline'
-import { Currency, Price } from '@sushiswap/core-sdk'
+import { Currency, Price } from 'ubuntucoresdk'
 import Typography from 'app/components/Typography'
 import { classNames } from 'app/functions'
 import React, { FC, useCallback } from 'react'

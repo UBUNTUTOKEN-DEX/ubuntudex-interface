@@ -1,4 +1,4 @@
-import { Currency, CurrencyAmount } from '@sushiswap/core-sdk'
+import { Currency, CurrencyAmount } from 'ubuntucoresdk'
 
 export interface TableInstance {
   getTableProps: () => any

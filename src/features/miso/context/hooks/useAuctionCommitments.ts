@@ -1,5 +1,5 @@
 import { defaultAbiCoder } from '@ethersproject/abi'
-import { CurrencyAmount } from '@sushiswap/core-sdk'
+import { CurrencyAmount } from 'ubuntucoresdk'
 import { Auction } from 'app/features/miso/context/Auction'
 import { TOPIC_ADDED_COMMITMENT } from 'app/features/miso/context/constants'
 import { MisoAbiByTemplateId } from 'app/features/miso/context/utils'

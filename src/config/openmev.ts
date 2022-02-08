@@ -1,4 +1,4 @@
-import { ChainId } from '@sushiswap/core-sdk'
+import { ChainId } from 'ubuntucoresdk'
 
 export const OPENMEV_ENABLED = true
 

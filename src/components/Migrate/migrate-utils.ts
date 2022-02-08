@@ -1,4 +1,4 @@
-import { Pair } from '@sushiswap/core-sdk'
+import { Pair } from 'ubuntucoresdk'
 import { Fee } from '@sushiswap/trident-sdk'
 import { TridentPool } from 'app/services/graph'
 

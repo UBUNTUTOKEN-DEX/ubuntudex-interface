@@ -1,6 +1,6 @@
 import { splitSignature } from '@ethersproject/bytes'
 import { AddressZero, HashZero } from '@ethersproject/constants'
-import { KASHI_ADDRESS } from '@sushiswap/core-sdk'
+import { KASHI_ADDRESS } from 'ubuntucoresdk'
 import KashiCooker, { signMasterContractApproval } from 'app/entities/KashiCooker'
 import { useActiveWeb3React } from 'app/services/web3'
 import { setKashiApprovalPending } from 'app/state/application/actions'

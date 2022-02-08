@@ -1,6 +1,6 @@
 import { t } from '@lingui/macro'
 import { useLingui } from '@lingui/react'
-import { NATIVE, WNATIVE } from '@sushiswap/core-sdk'
+import { NATIVE, WNATIVE } from 'ubuntucoresdk'
 import Alert from 'app/components/Alert'
 import { CurrencyLogo } from 'app/components/CurrencyLogo'
 import Divider from 'app/components/Divider'

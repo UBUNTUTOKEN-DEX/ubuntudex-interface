@@ -1,4 +1,4 @@
-import { NATIVE } from '@sushiswap/core-sdk'
+import { NATIVE } from 'ubuntucoresdk'
 import { InjectedConnector } from '@web3-react/injected-connector'
 import { WalletLinkConnector } from '@web3-react/walletlink-connector'
 import Container from 'app/components/Container'

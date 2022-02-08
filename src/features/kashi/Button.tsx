@@ -1,6 +1,6 @@
 import { t } from '@lingui/macro'
 import { useLingui } from '@lingui/react'
-import { BENTOBOX_ADDRESS, WNATIVE_ADDRESS } from '@sushiswap/core-sdk'
+import { BENTOBOX_ADDRESS, WNATIVE_ADDRESS } from 'ubuntucoresdk'
 import Alert from 'app/components/Alert'
 import Button from 'app/components/Button'
 import Dots from 'app/components/Dots'

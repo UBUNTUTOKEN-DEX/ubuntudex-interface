@@ -1,4 +1,4 @@
-import { Currency, NATIVE, SUSHI } from '@sushiswap/core-sdk'
+import { Currency, NATIVE, SUSHI } from 'ubuntucoresdk'
 import { Fee } from '@sushiswap/trident-sdk'
 import { useCurrency } from 'app/hooks/Tokens'
 import { useActiveWeb3React } from 'app/services/web3'

@@ -1,5 +1,5 @@
 import { AddressZero } from '@ethersproject/constants'
-import { Currency, CurrencyAmount } from '@sushiswap/core-sdk'
+import { Currency, CurrencyAmount } from 'ubuntucoresdk'
 import { useUSDCValue } from 'app/hooks/useUSDCPrice'
 import { FC, ReactNode, useCallback, useEffect, useMemo, useState } from 'react'
 

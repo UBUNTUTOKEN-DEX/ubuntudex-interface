@@ -1,6 +1,6 @@
 import { t } from '@lingui/macro'
 import { useLingui } from '@lingui/react'
-import { ChainId } from '@sushiswap/core-sdk'
+import { ChainId } from 'ubuntucoresdk'
 import Button from 'app/components/Button'
 import Typography from 'app/components/Typography'
 import { Feature } from 'app/enums'

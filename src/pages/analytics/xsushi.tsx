@@ -1,4 +1,4 @@
-import { ChainId, SUSHI_ADDRESS } from '@sushiswap/core-sdk'
+import { ChainId, SUSHI_ADDRESS } from 'ubuntucoresdk'
 import TimespanGraph from 'app/components/TimespanGraph'
 import { XSUSHI } from 'app/config/tokens'
 import AnalyticsContainer from 'app/features/analytics/AnalyticsContainer'

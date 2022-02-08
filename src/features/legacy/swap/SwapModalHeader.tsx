@@ -1,6 +1,6 @@
 import { t } from '@lingui/macro'
 import { useLingui } from '@lingui/react'
-import { Percent, TradeType } from '@sushiswap/core-sdk'
+import { Percent, TradeType } from 'ubuntucoresdk'
 import Button from 'app/components/Button'
 import { CurrencyLogo } from 'app/components/CurrencyLogo'
 import HeadlessUiModal from 'app/components/Modal/HeadlessUIModal'

@@ -1,5 +1,5 @@
 import { getAddress } from '@ethersproject/address'
-import { ChainId, CurrencyAmount, Token } from '@sushiswap/core-sdk'
+import { ChainId, CurrencyAmount, Token } from 'ubuntucoresdk'
 import { useAllTokens } from 'app/hooks/Tokens'
 import { useBoringHelperContract, useDashboardContract, useQuickSwapFactoryContract } from 'app/hooks/useContract'
 import { useActiveWeb3React } from 'app/services/web3'

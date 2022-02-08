@@ -1,6 +1,6 @@
 import { t } from '@lingui/macro'
 import { useLingui } from '@lingui/react'
-import { Percent } from '@sushiswap/core-sdk'
+import { Percent } from 'ubuntucoresdk'
 import CopyHelper from 'app/components/AccountDetails/Copy'
 import Typography from 'app/components/Typography'
 import { Auction } from 'app/features/miso/context/Auction'

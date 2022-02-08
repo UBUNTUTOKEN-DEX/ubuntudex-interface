@@ -1,4 +1,4 @@
-import { ChainId, Token } from '@sushiswap/core-sdk'
+import { ChainId, Token } from 'ubuntucoresdk'
 import { PoolType } from '@sushiswap/tines'
 import { fetcher, TridentPoolData } from 'app/services/graph'
 import { getTridentPositionsQuery } from 'app/services/graph/queries'

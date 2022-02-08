@@ -1,7 +1,7 @@
 import { SwitchHorizontalIcon } from '@heroicons/react/solid'
 import { t } from '@lingui/macro'
 import { useLingui } from '@lingui/react'
-import { NATIVE } from '@sushiswap/core-sdk'
+import { NATIVE } from 'ubuntucoresdk'
 import { BentoboxIcon } from 'app/components/Icon'
 import Typography from 'app/components/Typography'
 import { Feature } from 'app/enums/Feature'

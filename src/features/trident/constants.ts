@@ -1,4 +1,4 @@
-import { Percent } from '@sushiswap/core-sdk'
+import { Percent } from 'ubuntucoresdk'
 import { PoolType } from '@sushiswap/tines'
 import { ChipColor } from 'app/components/Chip'
 import { classNames } from 'app/functions'

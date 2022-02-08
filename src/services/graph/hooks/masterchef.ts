@@ -1,4 +1,4 @@
-import { ChainId } from '@sushiswap/core-sdk'
+import { ChainId } from 'ubuntucoresdk'
 import { Chef } from 'app/features/onsen/enum'
 import {
   getMasterChefV1Farms,

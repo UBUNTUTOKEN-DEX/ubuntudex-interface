@@ -1,5 +1,5 @@
 import { BigNumber } from '@ethersproject/bignumber'
-import { Currency, CurrencyAmount, Token } from '@sushiswap/core-sdk'
+import { Currency, CurrencyAmount, Token } from 'ubuntucoresdk'
 import { useSingleCallResult } from 'app/state/multicall/hooks'
 
 import { useTokenContract } from './useContract'

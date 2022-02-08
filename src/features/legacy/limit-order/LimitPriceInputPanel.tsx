@@ -1,6 +1,6 @@
 import { t } from '@lingui/macro'
 import { useLingui } from '@lingui/react'
-import { Currency, Price, Trade, TradeType } from '@sushiswap/core-sdk'
+import { Currency, Price, Trade, TradeType } from 'ubuntucoresdk'
 import NumericalInput from 'app/components/Input/Numeric'
 import Typography from 'app/components/Typography'
 import { useAppDispatch } from 'app/state/hooks'

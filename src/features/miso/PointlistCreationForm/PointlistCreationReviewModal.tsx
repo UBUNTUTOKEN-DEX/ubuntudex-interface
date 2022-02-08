@@ -1,6 +1,6 @@
 import { t } from '@lingui/macro'
 import { useLingui } from '@lingui/react'
-import { Fraction, JSBI, NATIVE } from '@sushiswap/core-sdk'
+import { Fraction, JSBI, NATIVE } from 'ubuntucoresdk'
 import LoadingCircle from 'app/animation/loading-circle.json'
 import HeadlessUIModal from 'app/components/Modal/HeadlessUIModal'
 import Typography from 'app/components/Typography'

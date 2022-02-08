@@ -1,6 +1,6 @@
 import { defaultAbiCoder } from '@ethersproject/abi'
 import { AddressZero } from '@ethersproject/constants'
-import { CHAIN_KEY } from '@sushiswap/core-sdk'
+import { CHAIN_KEY } from 'ubuntucoresdk'
 import MISO from '@sushiswap/miso/exports/all.json'
 import { AuctionCreationFormInputFormatted } from 'app/features/miso/AuctionCreationForm'
 import { AuctionCreationWizardInputFormatted } from 'app/features/miso/AuctionCreationWizard'

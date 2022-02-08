@@ -1,4 +1,4 @@
-import { Token } from '@sushiswap/core-sdk'
+import { Token } from 'ubuntucoresdk'
 import HeadlessUiModal from 'app/components/Modal/HeadlessUIModal'
 import React, { FC } from 'react'
 

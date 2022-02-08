@@ -1,4 +1,4 @@
-import { ChainId, Currency, WNATIVE } from '@sushiswap/core-sdk'
+import { ChainId, Currency, WNATIVE } from 'ubuntucoresdk'
 import useHttpLocations from 'app/hooks/useHttpLocations'
 import { WrappedTokenInfo } from 'app/state/lists/wrappedTokenInfo'
 import React, { FunctionComponent, useMemo } from 'react'

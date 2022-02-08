@@ -1,7 +1,7 @@
 import { BigNumber } from '@ethersproject/bignumber'
 import { t } from '@lingui/macro'
 import { useLingui } from '@lingui/react'
-import { WNATIVE } from '@sushiswap/core-sdk'
+import { WNATIVE } from 'ubuntucoresdk'
 import Button from 'app/components/Button'
 import KashiCooker from 'app/entities/KashiCooker'
 import { Direction, TransactionReview } from 'app/entities/TransactionReview'

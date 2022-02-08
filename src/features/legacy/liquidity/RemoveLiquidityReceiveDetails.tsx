@@ -1,4 +1,4 @@
-import { Currency, currencyEquals, NATIVE, WNATIVE } from '@sushiswap/core-sdk'
+import { Currency, currencyEquals, NATIVE, WNATIVE } from 'ubuntucoresdk'
 import { AutoColumn } from 'app/components/Column'
 import { CurrencyLogo } from 'app/components/CurrencyLogo'
 import { RowBetween } from 'app/components/Row'

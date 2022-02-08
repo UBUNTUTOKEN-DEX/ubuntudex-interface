@@ -1,6 +1,6 @@
 import { t } from '@lingui/macro'
 import { useLingui } from '@lingui/react'
-import { NATIVE } from '@sushiswap/core-sdk'
+import { NATIVE } from 'ubuntucoresdk'
 import { WalletIcon } from 'app/components/Icon'
 import Typography from 'app/components/Typography'
 import ActionItem from 'app/features/trident/balances/ActionsModal/ActionItem'

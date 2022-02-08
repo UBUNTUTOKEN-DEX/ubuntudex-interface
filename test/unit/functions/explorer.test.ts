@@ -1,4 +1,4 @@
-import { ChainId } from '@sushiswap/core-sdk'
+import { ChainId } from 'ubuntucoresdk'
 import { getExplorerLink } from 'app/functions/explorer'
 
 describe('utils', () => {

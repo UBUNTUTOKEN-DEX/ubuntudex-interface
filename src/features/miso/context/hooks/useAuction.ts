@@ -1,4 +1,4 @@
-import { Token } from '@sushiswap/core-sdk'
+import { Token } from 'ubuntucoresdk'
 import { useAuctionDocuments } from 'app/features/miso/context/hooks/useAuctionDocuments'
 import { useAuctionEnded } from 'app/features/miso/context/hooks/useAuctionEnded'
 import {

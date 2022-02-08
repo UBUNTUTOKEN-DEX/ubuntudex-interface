@@ -1,4 +1,4 @@
-import { ChainId } from '@sushiswap/core-sdk'
+import { ChainId } from 'ubuntucoresdk'
 import { createStore, Store } from 'redux'
 
 import { addPopup, ApplicationModal, removePopup, setOpenModal, updateBlockNumber } from './actions'

@@ -1,4 +1,4 @@
-import { Currency, Price, Token } from '@sushiswap/core-sdk'
+import { Currency, Price, Token } from 'ubuntucoresdk'
 import useInterval from 'app/hooks/useInterval'
 import { FC, useState } from 'react'
 

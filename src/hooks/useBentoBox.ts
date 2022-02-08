@@ -1,7 +1,7 @@
 import { getAddress } from '@ethersproject/address'
 import { BigNumber } from '@ethersproject/bignumber'
 import { AddressZero } from '@ethersproject/constants'
-import { WNATIVE_ADDRESS } from '@sushiswap/core-sdk'
+import { WNATIVE_ADDRESS } from 'ubuntucoresdk'
 import { useActiveWeb3React } from 'app/services/web3'
 import { useTransactionAdder } from 'app/state/transactions/hooks'
 import { useCallback } from 'react'

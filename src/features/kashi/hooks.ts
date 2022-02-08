@@ -2,7 +2,7 @@ import { defaultAbiCoder } from '@ethersproject/abi'
 import { getAddress } from '@ethersproject/address'
 import { BigNumber } from '@ethersproject/bignumber'
 import { Zero } from '@ethersproject/constants'
-import { ChainId, KASHI_ADDRESS, NATIVE, Token, USD, WNATIVE_ADDRESS } from '@sushiswap/core-sdk'
+import { ChainId, KASHI_ADDRESS, NATIVE, Token, USD, WNATIVE_ADDRESS } from 'ubuntucoresdk'
 import { Fraction } from 'app/entities'
 import { Feature } from 'app/enums'
 import {

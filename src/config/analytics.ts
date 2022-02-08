@@ -1,4 +1,4 @@
-import { ChainId } from '@sushiswap/core-sdk'
+import { ChainId } from 'ubuntucoresdk'
 
 const analytics = {
   [ChainId.ETHEREUM]: 'https://analytics.sushi.com',

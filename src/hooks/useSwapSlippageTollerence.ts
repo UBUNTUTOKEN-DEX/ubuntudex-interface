@@ -1,4 +1,4 @@
-import { Currency, Percent, Trade, TradeType } from '@sushiswap/core-sdk'
+import { Currency, Percent, Trade, TradeType } from 'ubuntucoresdk'
 import { Trade as TridentTrade } from '@sushiswap/trident-sdk'
 import { useUserSlippageToleranceWithDefault } from 'app/state/user/hooks'
 import { useMemo } from 'react'

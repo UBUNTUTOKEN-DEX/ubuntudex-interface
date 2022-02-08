@@ -11,7 +11,7 @@ import {
   TradeType,
   WNATIVE_ADDRESS,
   ZERO,
-} from '@sushiswap/core-sdk'
+} from 'ubuntucoresdk'
 import { isAddress, tryParseAmount } from 'app/functions'
 import { useCurrency } from 'app/hooks/Tokens'
 import { useBentoOrWalletBalance } from 'app/hooks/useBentoOrWalletBalance'

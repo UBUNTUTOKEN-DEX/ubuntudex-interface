@@ -1,4 +1,4 @@
-import { ChainId } from '@sushiswap/core-sdk'
+import { ChainId } from 'ubuntucoresdk'
 import { retry, RetryableError, RetryOptions } from 'app/functions/retry'
 import { routingInfo } from 'app/hooks/useBestTridentTrade'
 import { useActiveWeb3React } from 'app/services/web3'

@@ -1,5 +1,5 @@
 import { BigNumber, BigNumberish } from '@ethersproject/bignumber'
-import { USD } from '@sushiswap/core-sdk'
+import { USD } from 'ubuntucoresdk'
 import {
   FACTOR_PRECISION,
   FULL_UTILIZATION_MINUS_MAX,

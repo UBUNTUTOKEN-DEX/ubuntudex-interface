@@ -1,7 +1,7 @@
 import { ExclamationIcon } from '@heroicons/react/outline'
 import { t } from '@lingui/macro'
 import { useLingui } from '@lingui/react'
-import { Percent } from '@sushiswap/core-sdk'
+import { Percent } from 'ubuntucoresdk'
 import { DEFAULT_DEADLINE_FROM_NOW } from 'app/constants'
 import { classNames } from 'app/functions'
 import { useSetUserSlippageTolerance, useUserSlippageTolerance, useUserTransactionTTL } from 'app/state/user/hooks'

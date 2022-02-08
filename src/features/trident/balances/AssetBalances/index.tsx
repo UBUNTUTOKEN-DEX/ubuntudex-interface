@@ -1,4 +1,4 @@
-import { NATIVE, ZERO } from '@sushiswap/core-sdk'
+import { NATIVE, ZERO } from 'ubuntucoresdk'
 import AssetBalances from 'app/features/trident/balances/AssetBalances/AssetBalances'
 import { Assets } from 'app/features/trident/balances/AssetBalances/types'
 import { useLPTableConfig } from 'app/features/trident/balances/AssetBalances/useLPTableConfig'

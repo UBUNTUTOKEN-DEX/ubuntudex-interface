@@ -1,6 +1,6 @@
 import { t } from '@lingui/macro'
 import { useLingui } from '@lingui/react'
-import { CurrencyAmount, ZERO } from '@sushiswap/core-sdk'
+import { CurrencyAmount, ZERO } from 'ubuntucoresdk'
 import Button from 'app/components/Button'
 import { CurrencyLogo } from 'app/components/CurrencyLogo'
 import NumericalInput from 'app/components/Input/Numeric'

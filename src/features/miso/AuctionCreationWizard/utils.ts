@@ -1,6 +1,6 @@
 import { AddressZero } from '@ethersproject/constants'
 import { parseUnits } from '@ethersproject/units'
-import { Currency, CurrencyAmount, Fraction, JSBI, Percent, Price, Token } from '@sushiswap/core-sdk'
+import { Currency, CurrencyAmount, Fraction, JSBI, Percent, Price, Token } from 'ubuntucoresdk'
 import {
   AuctionCreationWizardInput,
   AuctionCreationWizardInputFormatted,

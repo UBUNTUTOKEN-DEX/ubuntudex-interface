@@ -1,4 +1,4 @@
-import { Currency } from '@sushiswap/core-sdk'
+import { Currency } from 'ubuntucoresdk'
 import { selectBalancesCurrency } from 'app/features/trident/balances/balancesSlice'
 import { useCurrency } from 'app/hooks/Tokens'
 import { useSelector } from 'react-redux'

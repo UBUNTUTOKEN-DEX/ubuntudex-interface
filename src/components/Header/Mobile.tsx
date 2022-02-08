@@ -1,6 +1,6 @@
 import { Dialog, Transition } from '@headlessui/react'
 import { MenuIcon } from '@heroicons/react/outline'
-import { NATIVE } from '@sushiswap/core-sdk'
+import { NATIVE } from 'ubuntucoresdk'
 import { InjectedConnector } from '@web3-react/injected-connector'
 import { WalletLinkConnector } from '@web3-react/walletlink-connector'
 import useMenu from 'app/components/Header/useMenu'

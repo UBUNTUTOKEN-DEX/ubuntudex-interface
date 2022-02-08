@@ -1,4 +1,4 @@
-import { ChainId } from '@sushiswap/core-sdk'
+import { ChainId } from 'ubuntucoresdk'
 
 const THE_GRAPH = 'https://api.thegraph.com'
 const NAS_GRAPH = 'https://graph.kkt.one/node'

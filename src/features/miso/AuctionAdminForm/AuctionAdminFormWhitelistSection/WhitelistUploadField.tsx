@@ -1,6 +1,6 @@
 import { i18n } from '@lingui/core'
 import { t } from '@lingui/macro'
-import { Fraction, JSBI } from '@sushiswap/core-sdk'
+import { Fraction, JSBI } from 'ubuntucoresdk'
 import loadingCircle from 'app/animation/loading-circle.json'
 import Button from 'app/components/Button'
 import { Auction } from 'app/features/miso/context/Auction'

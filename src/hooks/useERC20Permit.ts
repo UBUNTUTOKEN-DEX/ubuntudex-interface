@@ -9,7 +9,7 @@ import {
   Token,
   Trade as V2Trade,
   TradeType,
-} from '@sushiswap/core-sdk'
+} from 'ubuntucoresdk'
 import { DAI, USDC } from 'app/config/tokens'
 import { useActiveWeb3React } from 'app/services/web3'
 import { useMemo, useState } from 'react'

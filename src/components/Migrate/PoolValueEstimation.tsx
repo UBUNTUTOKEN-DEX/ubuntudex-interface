@@ -1,4 +1,4 @@
-import { Pair } from '@sushiswap/core-sdk'
+import { Pair } from 'ubuntucoresdk'
 import SumUSDCValues from 'app/features/trident/SumUSDCValues'
 import { classNames } from 'app/functions'
 import React, { FC } from 'react'

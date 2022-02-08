@@ -1,6 +1,6 @@
 import { Interface } from '@ethersproject/abi'
 import { AddressZero } from '@ethersproject/constants'
-import { CHAIN_KEY, Currency, CurrencyAmount, Fraction, JSBI } from '@sushiswap/core-sdk'
+import { CHAIN_KEY, Currency, CurrencyAmount, Fraction, JSBI } from 'ubuntucoresdk'
 import MISO from '@sushiswap/miso/exports/all.json'
 import BASE_AUCTION_ABI from 'app/constants/abis/base-auction.json'
 import { useContract } from 'app/hooks'

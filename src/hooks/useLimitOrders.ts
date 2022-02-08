@@ -1,4 +1,4 @@
-import { JSBI, Percent, Token } from '@sushiswap/core-sdk'
+import { JSBI, Percent, Token } from 'ubuntucoresdk'
 import { LAMBDA_URL, LimitOrder, OrderStatus } from '@sushiswap/limit-order-sdk'
 import { useActiveWeb3React } from 'app/services/web3'
 import { useCallback, useEffect, useMemo, useState } from 'react'

@@ -1,6 +1,6 @@
 import { t } from '@lingui/macro'
 import { useLingui } from '@lingui/react'
-import { Currency, CurrencyAmount, JSBI, Token, Trade as V2Trade, TradeType } from '@sushiswap/core-sdk'
+import { Currency, CurrencyAmount, JSBI, Token, Trade as V2Trade, TradeType } from 'ubuntucoresdk'
 import swapArrowsAnimationData from 'app/animation/swap-arrows.json'
 import AddressInputPanel from 'app/components/AddressInputPanel'
 import Alert from 'app/components/Alert'
