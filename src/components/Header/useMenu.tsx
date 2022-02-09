@@ -52,11 +52,11 @@ const useMenu: UseMenu = () => {
             title: i18n._(t`Swap`),
             link: '/swap',
           },
-          {
-            key: 'limit',
-            title: i18n._(t`Limit order`),
-            link: '/limit-order',
-          },
+          // {
+          //   key: 'limit',
+          //   title: i18n._(t`Limit order`),
+          //   link: '/limit-order',
+          // },
         ],
       }
     }
