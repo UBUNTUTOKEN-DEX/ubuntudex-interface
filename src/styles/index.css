@@ -82,6 +82,14 @@ color: #000;
   linear-gradient(113.23deg, #C0884A 13.69%, #E9CF7E 75.09%) !important;
   color: #000 !important;
 }
+
+.from-opaque-blue-new{
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+  linear-gradient(113.23deg, #ffffff 13.69%, #ffffff 75.09%) !important;
+  color: #000 !important;
+  z-index: -999;
+}
+
 .input_box_bg{
   background: #25252B !important;
 border-radius: 20px !important;

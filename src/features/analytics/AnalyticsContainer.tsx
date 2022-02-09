@@ -8,8 +8,8 @@ export default function AnalyticsContainer({ children }): JSX.Element {
   return (
     <>
       <Head>
-        <title>Sushi Analytics | Sushi</title>
-        <meta name="description" content="SushiSwap Liquidity Pair (SLP) Analytics by Sushi" />
+        <title>Ubuntu Analytics | Ubuntu</title>
+        <meta name="description" content="Ubuntu Liquidity Pair (SLP) Analytics by Ubuntu" />
       </Head>
 
       <Container
@@ -23,15 +23,18 @@ export default function AnalyticsContainer({ children }): JSX.Element {
               {
                 text: 'Dashboard',
                 href: '/analytics/dashboard',
-              },
-              {
-                text: 'xSushi',
-                href: '/analytics/xsushi',
-              },
-              {
-                text: 'Farms',
-                href: '/analytics/farms',
-              },
+              }
+              // ,
+              // {
+              //   text: 'xSushi',
+              //   href: '/analytics/xsushi',
+              // }
+              // ,
+              // {
+              //   text: 'Farms',
+              //   href: '/analytics/farms',
+              // }
+              ,
               {
                 text: 'Pairs',
                 href: '/analytics/pairs',
@@ -39,11 +42,12 @@ export default function AnalyticsContainer({ children }): JSX.Element {
               {
                 text: 'Tokens',
                 href: '/analytics/tokens',
-              },
-              {
-                text: 'BentoBox',
-                href: '/analytics/bentobox',
-              },
+              }
+              // ,
+              // {
+              //   text: 'BentoBox',
+              //   href: '/analytics/bentobox',
+              // },
             ]}
           />
         </div>

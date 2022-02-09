@@ -2,7 +2,7 @@ FROM node:16
 
 WORKDIR /app
 
-RUN git clone https://github.com/sushiswap/trident .
+RUN git clone https://github.com/UBUNTUTOKEN-DEX/trident .
 RUN yarn
 RUN npx hardhat compile
 CMD npx hardhat node

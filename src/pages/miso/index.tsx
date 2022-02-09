@@ -42,7 +42,7 @@ const Miso = () => {
               {i18n._(t`Chef's Edition`)}
             </Typography>
             <Typography weight={700}>
-              {i18n._(t`These auctions are meticulously chosen by the Sushi Samurais, serving the best MISO for you.`)}
+              {i18n._(t`These auctions are meticulously chosen by the Ubuntu Samurais, serving the best MISO for you.`)}
             </Typography>
           </div>
           {chainId === ChainId.HARMONY && (

@@ -11,18 +11,18 @@ import ExternalLink from '../ExternalLink'
 const items = (i18n: I18n) => [
   {
     name: i18n._(t`Docs`),
-    description: i18n._(t`Documentation for users of Sushi.`),
+    description: i18n._(t`Documentation for users of Ubuntu.`),
     href: 'https://docs.sushi.com',
   },
   {
     name: i18n._(t`Dev`),
-    description: i18n._(t`Documentation for developers of Sushi.`),
+    description: i18n._(t`Documentation for developers of Ubuntu.`),
     href: 'https://dev.sushi.com',
   },
   {
     name: i18n._(t`Open Source`),
-    description: i18n._(t`Sushi is a supporter of Open Source.`),
-    href: 'https://github.com/sushiswap',
+    description: i18n._(t`Ubuntu is a supporter of Open Source.`),
+    href: 'https://github.com/UBUNTUTOKEN-DEX',
   },
   {
     name: i18n._(t`Tools`),

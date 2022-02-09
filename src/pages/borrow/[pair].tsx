@@ -35,24 +35,24 @@ export default function Pair() {
     <PairLayout>
       <Head>
         {/*@ts-ignore TYPE NEEDS FIXING*/}
-        <title>{i18n._(t`Borrow ${pair?.asset?.symbol}-${pair?.collateral?.symbol}`)} | Sushi</title>
+        <title>{i18n._(t`Borrow ${pair?.asset?.symbol}-${pair?.collateral?.symbol}`)} | Ubuntu</title>
         <meta
           key="description"
           name="description"
           /* @ts-ignore TYPE NEEDS FIXING */
-          content={`Borrow ${pair?.asset?.symbol} against ${pair?.collateral?.symbol} collateral on Kashi by Sushi`}
+          content={`Borrow ${pair?.asset?.symbol} against ${pair?.collateral?.symbol} collateral on Kashi by Ubuntu`}
         />
         <meta
           key="twitter:description"
           name="twitter:description"
           /* @ts-ignore TYPE NEEDS FIXING */
-          content={`Borrow ${pair?.asset?.symbol} against ${pair?.collateral?.symbol} collateral on Kashi by Sushi`}
+          content={`Borrow ${pair?.asset?.symbol} against ${pair?.collateral?.symbol} collateral on Kashi by Ubuntu`}
         />
         <meta
           key="og:description"
           property="og:description"
           /* @ts-ignore TYPE NEEDS FIXING */
-          content={`Borrow ${pair?.asset?.symbol} against ${pair?.collateral?.symbol} collateral on Kashi by Sushi`}
+          content={`Borrow ${pair?.asset?.symbol} against ${pair?.collateral?.symbol} collateral on Kashi by Ubuntu`}
         />
       </Head>
       <Card
@@ -277,7 +277,7 @@ const PairLayout = ({ children }) => {
             <Strategy token={pair.collateral} />
 
             {/*@ts-ignore TYPE NEEDS FIXING*/}
-            {pair && pair.oracle.name === 'SushiSwap' && (
+            {pair && pair.oracle.name === 'Ubuntu' && (
               <>
                 <div className="flex justify-between pt-3">
                   <div className="text-xl text-high-emphesis">{i18n._(t`SLP`)}</div>

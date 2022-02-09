@@ -44,7 +44,7 @@ export default function Lend() {
   return (
     <LendLayout>
       <Head>
-        <title>Lend | Sushi</title>
+        <title>Lend | Ubuntu</title>
         <meta
           key="description"
           name="description"

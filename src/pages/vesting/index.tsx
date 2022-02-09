@@ -46,7 +46,7 @@ const Vesting = () => {
   return (
     <>
       <Head>
-        <title>Vesting | Sushi</title>
+        <title>Vesting | Ubuntu</title>
         <meta name="description" content="Vesting..." />
         <meta key="twitter:description" name="twitter:description" content="Vesting..." />
         <meta key="og:description" property="og:description" content="Vesting..." />
@@ -149,7 +149,7 @@ const VestingLayout = () => {
               <br />
               <br />
               {i18n._(t`Additional records and weekly merkle updates can be found on`)}{' '}
-              <ExternalLink href="https://github.com/sushiswap/sushi-vesting">GitHub</ExternalLink>
+              <ExternalLink href="https://github.com/UBUNTUTOKEN-DEX/sushi-vesting">GitHub</ExternalLink>
             </>
           </div>
         </div>

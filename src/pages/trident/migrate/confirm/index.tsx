@@ -19,7 +19,7 @@ const ConfirmMigration = () => {
   return (
     <>
       <Head>
-        <title>{i18n._(t`Confirm Migration | Sushi`)}</title>
+        <title>{i18n._(t`Confirm Migration | Ubuntu`)}</title>
       </Head>
       <DebugObserver />
       <TridentHeader pattern="bg-binary" className="!gap-2">

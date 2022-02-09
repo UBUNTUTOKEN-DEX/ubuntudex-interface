@@ -190,10 +190,10 @@ export default function Create() {
   return (
     <CreateLayout>
       <Head>
-        <title>Create Lending Pair | Kashi by Sushi</title>
-        <meta key="description" name="description" content="Create Lending Pair on Kashi by Sushi" />
-        <meta key="twitter:description" name="twitter:description" content="Create Lending Pair on Kashi by Sushi" />
-        <meta key="og:description" property="og:description" content="Create Lending Pair on Kashi by Sushi" />
+        <title>Create Lending Pair | Kashi by Ubuntu</title>
+        <meta key="description" name="description" content="Create Lending Pair on Kashi by Ubuntu" />
+        <meta key="twitter:description" name="twitter:description" content="Create Lending Pair on Kashi by Ubuntu" />
+        <meta key="og:description" property="og:description" content="Create Lending Pair on Kashi by Ubuntu" />
       </Head>
       <Card
         className="h-full bg-dark-900"

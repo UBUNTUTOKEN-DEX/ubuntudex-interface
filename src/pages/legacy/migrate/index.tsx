@@ -253,7 +253,7 @@ const MigrateButtons = ({ state, exchange }: { state: MigrateState; exchange: st
       {error.message && error.code !== 4001 && <div className="font-medium text-center text-red">{error.message}</div>}
       <div className="text-sm text-center text-low-emphesis">
         {i18n._(
-          t`Your ${exchange} ${state.selectedLPToken.tokenA.symbol}/${state.selectedLPToken.tokenB.symbol} liquidity will become SushiSwap ${state.selectedLPToken.tokenA.symbol}/${state.selectedLPToken.tokenB.symbol} liquidity.`
+          t`Your ${exchange} ${state.selectedLPToken.tokenA.symbol}/${state.selectedLPToken.tokenB.symbol} liquidity will become Ubuntu ${state.selectedLPToken.tokenA.symbol}/${state.selectedLPToken.tokenB.symbol} liquidity.`
         )}
       </div>
     </div>
@@ -315,10 +315,10 @@ export default function Migrate() {
   return (
     <Container id="migrate-page" className="py-4 space-y-6 md:py-8 lg:py-12" maxWidth="2xl">
       <Head>
-        <title>Migrate | Sushi</title>
-        <meta key="description" name="description" content="Migrate your liquidity to SushiSwap." />
-        <meta key="twitter:description" name="twitter:description" content="Migrate your liquidity to SushiSwap." />
-        <meta key="og:description" property="og:description" content="Migrate your liquidity to SushiSwap." />
+        <title>Migrate | Ubuntu</title>
+        <meta key="description" name="description" content="Migrate your liquidity to Ubuntu." />
+        <meta key="twitter:description" name="twitter:description" content="Migrate your liquidity to Ubuntu." />
+        <meta key="og:description" property="og:description" content="Migrate your liquidity to Ubuntu." />
       </Head>
 
       <div className="p-4 mb-3 space-y-3">

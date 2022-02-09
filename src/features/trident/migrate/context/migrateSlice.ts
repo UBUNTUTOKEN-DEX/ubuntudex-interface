@@ -5,7 +5,7 @@ import { TridentPool } from 'app/services/graph'
 import { AppState } from 'app/state'
 
 export enum MigrationSource {
-  SUSHI_V2 = 'Sushi v2',
+  SUSHI_V2 = 'Ubuntu v2',
 }
 
 export interface v2Migration {

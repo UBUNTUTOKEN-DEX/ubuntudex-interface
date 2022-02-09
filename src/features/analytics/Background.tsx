@@ -8,13 +8,13 @@ interface BackgroundProps {
 }
 
 const backgrounds = {
-  dashboard: '/images/analytics/analytics-background-dashboard.jpg',
+  dashboard: '/images/analytics/1683587.jpeg',
   bar: '/images/analytics/analytics-background-bar.jpg',
   farms: '/images/analytics/analytics-background-farms.jpg',
   pool: `/images/analytics/analytics-background-pool.svg`,
-  pools: '/images/analytics/analytics-background-pools.jpg',
+  pools: '/images/analytics/space.jpg',
   token: `/images/analytics/analytics-background-token.svg`,
-  tokens: '/images/analytics/analytics-background-tokens.jpg',
+  tokens: '/images/analytics/wp4940004.jpeg',
 }
 
 export default function Background({ background, children }: BackgroundProps) {

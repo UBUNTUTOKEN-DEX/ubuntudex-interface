@@ -118,7 +118,7 @@ export default function Dashboard(): JSX.Element {
             token1: farm.pair.token1,
             id: farm.pair.id,
             name: farm.pair.symbol ?? `${farm.pair.token0.symbol}-${farm.pair.token1.symbol}`,
-            type: farm.pair.symbol ? 'Kashi Farm' : 'Sushi Farm',
+            type: farm.pair.symbol ? 'Kashi Farm' : 'Ubuntu Farm',
           },
           rewards: farm.rewards,
           liquidity: farm.tvl,
@@ -232,7 +232,7 @@ export default function Dashboard(): JSX.Element {
       <Background background="dashboard">
         <div className="grid items-center justify-between grid-cols-1 gap-x-4 gap-y-4 md:grid-cols-2">
           <div>
-            <div className="text-3xl font-bold text-high-emphesis">Sushi Analytics</div>
+            <div className="text-3xl font-bold text-high-emphesis">Ubuntu Analytics</div>
             <div className="">
               Dive deeper in the analytics of sushi bar,
               <br /> pools, pairs and tokens.
@@ -246,7 +246,7 @@ export default function Dashboard(): JSX.Element {
         <div className="grid grid-cols-1 gap-4 sm:grid-cols-2">
           <ChartCard
             header="TVL"
-            subheader="SUSHI AMM"
+            subheader="UBUNTU AMM"
             figure={chartData.liquidity}
             change={chartData.liquidityChange}
             chart={chartData.liquidityChart}
@@ -255,7 +255,7 @@ export default function Dashboard(): JSX.Element {
           />
           <ChartCard
             header="Volume"
-            subheader="SUSHI AMM"
+            subheader="UBUNTU AMM"
             figure={chartData.volume1d}
             change={chartData.volume1dChange}
             chart={chartData.volumeChart}

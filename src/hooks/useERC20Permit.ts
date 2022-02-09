@@ -48,7 +48,7 @@ const PERMITTABLE_TOKENS: {
       version: '1',
     },
     // @ts-ignore TYPE NEEDS FIXING
-    [SUSHI[1].address]: { type: PermitType.AMOUNT, name: 'SushiSwap' },
+    [SUSHI[1].address]: { type: PermitType.AMOUNT, name: 'Ubuntu' },
   },
   [4]: {
     ['0xc7AD46e0b8a400Bb3C915120d284AafbA8fc4735']: {
@@ -57,11 +57,11 @@ const PERMITTABLE_TOKENS: {
       version: '1',
     },
     // @ts-ignore TYPE NEEDS FIXING
-    [SUSHI[4].address]: { type: PermitType.AMOUNT, name: 'SushiSwap' },
+    [SUSHI[4].address]: { type: PermitType.AMOUNT, name: 'Ubuntu' },
   },
   [3]: {
     // @ts-ignore TYPE NEEDS FIXING
-    [SUSHI[3].address]: { type: PermitType.AMOUNT, name: 'SushiSwap' },
+    [SUSHI[3].address]: { type: PermitType.AMOUNT, name: 'Ubuntu' },
     ['0x07865c6E87B9F70255377e024ace6630C1Eaa37F']: {
       type: PermitType.AMOUNT,
       name: 'USD Coin',
@@ -70,11 +70,11 @@ const PERMITTABLE_TOKENS: {
   },
   [5]: {
     // @ts-ignore TYPE NEEDS FIXING
-    [SUSHI[5].address]: { type: PermitType.AMOUNT, name: 'SushiSwap' },
+    [SUSHI[5].address]: { type: PermitType.AMOUNT, name: 'Ubuntu' },
   },
   [42]: {
     // @ts-ignore TYPE NEEDS FIXING
-    [SUSHI[42].address]: { type: PermitType.AMOUNT, name: 'SushiSwap' },
+    [SUSHI[42].address]: { type: PermitType.AMOUNT, name: 'Ubuntu' },
   },
 }
 
@@ -283,7 +283,7 @@ export function useERC20Permit(
 
 const REMOVE_V2_LIQUIDITY_PERMIT_INFO: PermitInfo = {
   version: '1',
-  name: 'SushiSwap LP Token',
+  name: 'Ubuntu LP Token',
   type: PermitType.AMOUNT,
 }
 
@@ -296,7 +296,7 @@ export function useV2LiquidityTokenPermit(
 
 const REMOVE_TRIDENT_LIQUIDITY_PERMIT_INFO: PermitInfo = {
   version: '1',
-  name: 'Sushi LP Token',
+  name: 'Ubuntu LP Token',
   type: PermitType.AMOUNT,
 }
 

@@ -16,8 +16,8 @@ const _ActionsHeader = () => {
   const currency = useBalancesSelectedCurrency()
 
   return (
-    <div className="flex justify-between bg-dark-800 border-b border-dark-700 p-5">
-      <div className="flex gap-4 items-center">
+    <div className="flex justify-between p-5 border-b bg-dark-800 border-dark-700">
+      <div className="flex items-center gap-4">
         <CurrencyLogo currency={currency} size={42} className="!rounded-full" />
         <Typography variant="h3" className="text-high-emphesis" weight={700}>
           {currency?.symbol}
@@ -32,7 +32,7 @@ export const ActionsAsideBento = () => {
 
   if (activeModal && [ActiveModal.MENU, ActiveModal.WITHDRAW].includes(activeModal))
     return (
-      <div className="shadow-xl shadow-pink/5 rounded overflow-hidden">
+      <div className="overflow-hidden rounded shadow-xl shadow-pink/5">
         <_ActionsHeader />
         <BentoActions />
       </div>
@@ -46,7 +46,7 @@ export const ActionsAsideWallet = () => {
 
   if (activeModal && [ActiveModal.MENU, ActiveModal.DEPOSIT].includes(activeModal))
     return (
-      <div className="shadow-xl shadow-pink/5 rounded overflow-hidden">
+      <div className="overflow-hidden rounded shadow-xl shadow-pink/5">
         <_ActionsHeader />
         <WalletActions />
       </div>

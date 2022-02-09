@@ -309,21 +309,21 @@ export default function Add() {
   return (
     <>
       <Head>
-        <title>Add Liquidity | Sushi</title>
+        <title>Add Liquidity | Ubuntu</title>
         <meta
           key="description"
           name="description"
-          content="Add liquidity to the SushiSwap AMM to enable gas optimised and low slippage trades across countless networks"
+          content="Add liquidity to the Ubuntu AMM to enable gas optimised and low slippage trades across countless networks"
         />
         <meta
           key="twitter:description"
           name="twitter:description"
-          content="Add liquidity to the SushiSwap AMM to enable gas optimised and low slippage trades across countless networks"
+          content="Add liquidity to the Ubuntu AMM to enable gas optimised and low slippage trades across countless networks"
         />
         <meta
           key="og:description"
           property="og:description"
-          content="Add liquidity to the SushiSwap AMM to enable gas optimised and low slippage trades across countless networks"
+          content="Add liquidity to the Ubuntu AMM to enable gas optimised and low slippage trades across countless networks"
         />
       </Head>
 

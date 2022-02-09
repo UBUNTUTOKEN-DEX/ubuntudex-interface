@@ -31,7 +31,7 @@ const BentoBoxFundingSourceModal: FC = () => {
             </div>
             <div className="flex flex-col gap-2">
               <Typography variant="lg" weight={700} className="text-center text-high-emphesis">
-                {i18n._(t`Sushi utilizes a token vault called BentoBox that has balances separate from your wallet.`)}
+                {i18n._(t`Ubuntu utilizes a token vault called BentoBox that has balances separate from your wallet.`)}
               </Typography>
               <Typography variant="sm" className="text-center text-secondary">
                 {i18n._(t`You can think of this as having "account balances" for each asset within sushi.com`)}

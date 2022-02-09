@@ -20,8 +20,8 @@ const Wallet = () => {
       </TridentHeader>
       <TridentBody>
         <div className="flex flex-row justify-between gap-10">
-          <div className="flex flex-col gap-8 w-full">
-            <BalancesSideBar />
+          <div className="flex flex-col w-full gap-8">
+            {/* <BalancesSideBar /> */}
             <div className="flex flex-col gap-4">
               <WalletBalances />
             </div>

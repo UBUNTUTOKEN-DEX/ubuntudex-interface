@@ -47,7 +47,7 @@ enum FarmFilter {
   All = 'All Farms',
   Portfolio = 'Your Farms',
   Kashi = 'Kashi Farms',
-  Sushi = 'Sushi Farms',
+  Ubuntu = 'Ubuntu Farms',
   Old = 'Old Farms',
 }
 
@@ -56,7 +56,7 @@ const filters: Record<string, FarmFilter> = {
   farm: FarmFilter.All,
   kashi: FarmFilter.Kashi,
   old: FarmFilter.Old,
-  sushi: FarmFilter.Sushi,
+  sushi: FarmFilter.Ubuntu,
 }
 
 const OnsenFilter = () => {
@@ -79,9 +79,9 @@ const OnsenFilter = () => {
         chainId === ChainId.ETHEREUM ? (
           <MenuLink href={'/farm?filter=kashi'} label={i18n._(t`Kashi Farms`)} />
         ) : undefined,
-      [FarmFilter.Sushi]:
+      [FarmFilter.Ubuntu]:
         chainId === ChainId.ETHEREUM ? (
-          <MenuLink href={'/farm?filter=sushi'} label={i18n._(t`SushiSwap Farms`)} />
+          <MenuLink href={'/farm?filter=sushi'} label={i18n._(t`Ubuntu Farms`)} />
         ) : undefined,
       // @ts-ignore TYPE NEEDS FIXING
       [FarmFilter.Old]: [ChainId.CELO].includes(chainId) ? (

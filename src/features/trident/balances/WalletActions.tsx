@@ -36,7 +36,7 @@ const WalletActions: FC = () => {
   }, [chainId, currency?.isNative, currency?.wrapped.address, router])
 
   return (
-    <div className="flex flex-col bg-dark-900 p-5 pt-7 gap-5">
+    <div className="flex flex-col gap-5 p-5 bg-dark-900 pt-7">
       <div className="flex flex-col gap-3">
         <Typography variant="lg" weight={700} className="text-high-emphesis">
           {i18n._(t`Available Actions`)}
@@ -45,12 +45,12 @@ const WalletActions: FC = () => {
         {/*@ts-ignore TYPE NEEDS FIXING*/}
         {featureEnabled(Feature.BENTOBOX, chainId) && (
           <>
-            <ActionItem
+            {/* <ActionItem
               svg={<BentoboxIcon width={20} height={20} />}
               label={i18n._(t`Deposit to BentoBox`)}
               onClick={() => dispatch(setBalancesActiveModal(ActiveModal.DEPOSIT))}
-            />
-            {/*<Typography variant="sm" className="text-blue text-center mb-5 mt-2 cursor-pointer">*/}
+            /> */}
+            {/*<Typography variant="sm" className="mt-2 mb-5 text-center cursor-pointer text-blue">*/}
             {/*  What is BentoBox?*/}
             {/*</Typography>*/}
           </>
