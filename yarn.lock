@@ -2846,10 +2846,10 @@
   resolved "https://registry.yarnpkg.com/@sushiswap/core/-/core-2.0.0-canary.1.tgz#91c938668282d463e4fce6e0cf4d320ce5f3768f"
   integrity sha512-6YFT4EKgm0XgfwCBsKx5HrDtRI6EvhZHipjBKegdTV0b2zKuXnmdyZ+RwPCr0mCKq2pKB0qIiqCxfbgXYDlLCQ==
 
-"@sushiswap/default-token-list@22.4.4":
-  version "22.4.4"
-  resolved "https://registry.yarnpkg.com/@sushiswap/default-token-list/-/default-token-list-22.4.4.tgz#823f70922b4657933a4e29d4fd5d54b2184d5da1"
-  integrity sha512-32plnK4GgailrBOpaFehsmVr4nQiwJbHeaYbhX3HVBQZWo1NPS6AkoG+05ogZTERZj2qEUl+GuLiVu6IXHd31g==
+"@sushiswap/default-token-list@22.6.0":
+  version "22.6.0"
+  resolved "https://registry.yarnpkg.com/@sushiswap/default-token-list/-/default-token-list-22.6.0.tgz#7c2f65fbb5af0f35587cea35524fb1938837b2ab"
+  integrity sha512-HVxbidl8VlAzk5GILFufIObTYM8kRRL7El1vNYfXLwZ6ugPtFQh3ovBaVVInzhghNlmNYxItdrkU0jzz8WK//g==
 
 "@sushiswap/kashi-sdk@1.0.0-canary.37":
   version "1.0.0-canary.37"
