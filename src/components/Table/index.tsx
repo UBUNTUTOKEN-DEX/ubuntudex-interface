@@ -1,3 +1,4 @@
+// @ts-nocheck
 import { ArrowLeftIcon, ArrowRightIcon } from '@heroicons/react/outline'
 import { useRouter } from 'next/router'
 import React, { ReactNode, useState } from 'react'

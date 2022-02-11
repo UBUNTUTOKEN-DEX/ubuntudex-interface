@@ -1,3 +1,4 @@
+// @ts-nocheck
 import { BigNumber } from '@ethersproject/bignumber'
 import { ChainId, Currency, CurrencyAmount, Pair, Trade as LegacyTrade, TradeType, WNATIVE } from 'ubuntucoresdk'
 import { MultiRoute, RouteStatus } from '@sushiswap/tines'

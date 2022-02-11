@@ -1,3 +1,4 @@
+// @ts-nocheck
 import { ChainId, SUSHI_ADDRESS } from 'ubuntucoresdk'
 import TimespanGraph from 'app/components/TimespanGraph'
 import { XSUSHI } from 'app/config/tokens'

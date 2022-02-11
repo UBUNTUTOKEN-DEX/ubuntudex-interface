@@ -1,3 +1,4 @@
+// @ts-nocheck
 import { Signature } from '@ethersproject/bytes'
 import { createReducer } from '@reduxjs/toolkit'
 import { AppState } from 'app/state'

@@ -37,7 +37,7 @@ const Desktop: FC = () => {
             <div className="flex gap-4 px-6 items-center justify-between">
               <div className="flex gap-4">
                 <div className="flex w-6 mr-20 items-center">
-                  {/* <Image src="https://app.sushi.com/images/logo.svg" alt="Ubuntu logo" width="24px" height="24px" /> */}
+                  {/* <Image src="/icons/icon.png" alt="Ubuntu logo" width="24px" height="24px" /> */}
                   <Typography variant="h2" weight={700} className="tracking-[0.02em] scale-y-90 hover:text-high-emphesis font-size-20">
               Ubuntuswap
               </Typography>
