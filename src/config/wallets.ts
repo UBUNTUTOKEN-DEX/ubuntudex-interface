@@ -109,7 +109,7 @@ export const SUPPORTED_WALLETS: { [key: string]: WalletInfo } = {
       return new WalletLinkConnector({
         url: RPC[ChainId.ETHEREUM],
         appName: 'Ubuntu',
-        appLogoUrl: 'https://raw.githubusercontent.com/sushiswap/art/master/sushi/logo-256x256.png',
+        appLogoUrl: 'https://raw.githubusercontent.com/UBUNTUTOKEN-DEX/icons/master/token/ubut.jpg',
         darkMode: true,
       })
     },

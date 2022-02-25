@@ -46,7 +46,7 @@ describe('kashi functions', () => {
         name: 'Tether USD',
         symbol: 'USDT',
         decimals: 6,
-        logoURI: 'https://raw.githubusercontent.com/sushiswap/icons/master/token/usdt.jpg',
+        logoURI: 'https://raw.githubusercontent.com/UBUNTUTOKEN-DEX/icons/master/token/usdt.jpg',
       },
       _checksummedAddress: '0xdAC17F958D2ee523a2206206994597C13D831ec7',
       _tags: null,

@@ -1,4 +1,4 @@
-import DEFAULT_TOKEN_LIST from '@sushiswap/default-token-list'
+import DEFAULT_TOKEN_LIST from 'ubuntudefaulttoken'
 import { TokenList } from '@uniswap/token-lists'
 import { UNSUPPORTED_LIST_URLS } from 'app/config/token-lists'
 import UNSUPPORTED_TOKEN_LIST from 'app/constants/token-lists/sushiswap-v2-unsupported.tokenlist.json'

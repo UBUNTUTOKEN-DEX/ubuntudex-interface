@@ -100,7 +100,7 @@ export const BASES_TO_CHECK_TRADES_AGAINST: ChainTokenList = {
     // @ts-ignore TYPE NEEDS FIXING
     ETHEREUM.MIM,
     // @ts-ignore TYPE NEEDS FIXING
-    SUSHI[ChainId.ETHEREUM],
+    // SUSHI[ChainId.ETHEREUM],
   ],
   [ChainId.MATIC]: [
     ...WRAPPED_NATIVE_ONLY[ChainId.MATIC],
@@ -129,6 +129,7 @@ export const BASES_TO_CHECK_TRADES_AGAINST: ChainTokenList = {
     BSC.BTCB,
     BSC.WETH,
     BSC.MIM,
+    BSC.UBUT,
   ],
   [ChainId.ARBITRUM]: [
     ...WRAPPED_NATIVE_ONLY[ChainId.ARBITRUM],
@@ -156,7 +157,7 @@ export const BASES_TO_CHECK_TRADES_AGAINST: ChainTokenList = {
     // @ts-ignore TYPE NEEDS FIXING
     AVALANCHE.TIME,
     // @ts-ignore TYPE NEEDS FIXING
-    SUSHI[ChainId.AVALANCHE],
+    // SUSHI[ChainId.AVALANCHE],
   ],
   [ChainId.HARMONY]: [
     ...WRAPPED_NATIVE_ONLY[ChainId.HARMONY],
@@ -260,7 +261,7 @@ export const COMMON_BASES: ChainTokenList = {
     // @ts-ignore TYPE NEEDS FIXING
     ...WRAPPED_NATIVE_ONLY[ChainId.ETHEREUM],
     // @ts-ignore TYPE NEEDS FIXING
-    SUSHI[ChainId.ETHEREUM],
+    // SUSHI[ChainId.ETHEREUM],
     // @ts-ignore TYPE NEEDS FIXING
     ETHEREUM.WBTC,
     // @ts-ignore TYPE NEEDS FIXING
@@ -282,7 +283,7 @@ export const COMMON_BASES: ChainTokenList = {
     // @ts-ignore TYPE NEEDS FIXING
     ...WRAPPED_NATIVE_ONLY[ChainId.MATIC],
     // @ts-ignore TYPE NEEDS FIXING
-    SUSHI[ChainId.MATIC],
+    // SUSHI[ChainId.MATIC],
     // @ts-ignore TYPE NEEDS FIXING
     MATIC.WETH,
     // @ts-ignore TYPE NEEDS FIXING
@@ -302,7 +303,7 @@ export const COMMON_BASES: ChainTokenList = {
     // @ts-ignore TYPE NEEDS FIXING
     ...WRAPPED_NATIVE_ONLY[ChainId.FANTOM],
     // @ts-ignore TYPE NEEDS FIXING
-    SUSHI[ChainId.FANTOM],
+    // SUSHI[ChainId.FANTOM],
     // @ts-ignore TYPE NEEDS FIXING
     FANTOM.WETH,
     // @ts-ignore TYPE NEEDS FIXING
@@ -322,7 +323,7 @@ export const COMMON_BASES: ChainTokenList = {
     // @ts-ignore TYPE NEEDS FIXING
     ...WRAPPED_NATIVE_ONLY[ChainId.BSC],
     // @ts-ignore TYPE NEEDS FIXING
-    SUSHI[ChainId.BSC],
+    // SUSHI[ChainId.BSC],
     // @ts-ignore TYPE NEEDS FIXING
     BSC.WETH,
     // @ts-ignore TYPE NEEDS FIXING
@@ -341,12 +342,14 @@ export const COMMON_BASES: ChainTokenList = {
     BSC.USDT,
     // @ts-ignore TYPE NEEDS FIXING
     BSC.USD,
+    // @ts-ignore TYPE NEEDS FIXING
+    BSC.UBUT
   ],
   [ChainId.ARBITRUM]: [
     // @ts-ignore TYPE NEEDS FIXING
     ...WRAPPED_NATIVE_ONLY[ChainId.ARBITRUM],
     // @ts-ignore TYPE NEEDS FIXING
-    SUSHI[ChainId.ARBITRUM],
+    // SUSHI[ChainId.ARBITRUM],
     // @ts-ignore TYPE NEEDS FIXING
     ARBITRUM.WBTC,
     // @ts-ignore TYPE NEEDS FIXING
@@ -364,7 +367,7 @@ export const COMMON_BASES: ChainTokenList = {
     // @ts-ignore TYPE NEEDS FIXING
     ...WRAPPED_NATIVE_ONLY[ChainId.XDAI],
     // @ts-ignore TYPE NEEDS FIXING
-    SUSHI[ChainId.XDAI],
+    // SUSHI[ChainId.XDAI],
     // @ts-ignore TYPE NEEDS FIXING
     XDAI.WETH,
     // @ts-ignore TYPE NEEDS FIXING
@@ -380,7 +383,7 @@ export const COMMON_BASES: ChainTokenList = {
     // @ts-ignore TYPE NEEDS FIXING
     ...WRAPPED_NATIVE_ONLY[ChainId.AVALANCHE],
     // @ts-ignore TYPE NEEDS FIXING
-    SUSHI[ChainId.AVALANCHE],
+    // SUSHI[ChainId.AVALANCHE],
     // @ts-ignore TYPE NEEDS FIXING
     AVALANCHE.WBTC,
     // @ts-ignore TYPE NEEDS FIXING
@@ -404,7 +407,7 @@ export const COMMON_BASES: ChainTokenList = {
     // @ts-ignore TYPE NEEDS FIXING
     ...WRAPPED_NATIVE_ONLY[ChainId.HARMONY],
     // @ts-ignore TYPE NEEDS FIXING
-    SUSHI[ChainId.HARMONY],
+    // SUSHI[ChainId.HARMONY],
     // @ts-ignore TYPE NEEDS FIXING
     HARMONY.WBTC,
     // @ts-ignore TYPE NEEDS FIXING
@@ -420,7 +423,7 @@ export const COMMON_BASES: ChainTokenList = {
     // @ts-ignore TYPE NEEDS FIXING
     ...WRAPPED_NATIVE_ONLY[ChainId.HECO],
     // @ts-ignore TYPE NEEDS FIXING
-    SUSHI[ChainId.HECO],
+    // SUSHI[ChainId.HECO],
     // @ts-ignore TYPE NEEDS FIXING
     HECO.WBTC,
     // @ts-ignore TYPE NEEDS FIXING
@@ -436,7 +439,7 @@ export const COMMON_BASES: ChainTokenList = {
     // @ts-ignore TYPE NEEDS FIXING
     ...WRAPPED_NATIVE_ONLY[ChainId.OKEX],
     // @ts-ignore TYPE NEEDS FIXING
-    SUSHI[ChainId.OKEX],
+    // SUSHI[ChainId.OKEX],
     // @ts-ignore TYPE NEEDS FIXING
     OKEX.WBTC,
     // @ts-ignore TYPE NEEDS FIXING
@@ -452,7 +455,7 @@ export const COMMON_BASES: ChainTokenList = {
     // @ts-ignore TYPE NEEDS FIXING
     ...WRAPPED_NATIVE_ONLY[ChainId.CELO],
     // @ts-ignore TYPE NEEDS FIXING
-    SUSHI[ChainId.CELO],
+    // SUSHI[ChainId.CELO],
     // @ts-ignore TYPE NEEDS FIXING
     CELO.WETH,
     // @ts-ignore TYPE NEEDS FIXING
@@ -468,7 +471,7 @@ export const COMMON_BASES: ChainTokenList = {
     // @ts-ignore TYPE NEEDS FIXING
     ...WRAPPED_NATIVE_ONLY[ChainId.MOONRIVER],
     // @ts-ignore TYPE NEEDS FIXING
-    SUSHI[ChainId.MOONRIVER],
+    // SUSHI[ChainId.MOONRIVER],
     // @ts-ignore TYPE NEEDS FIXING
     MOONRIVER.WETH,
     // @ts-ignore TYPE NEEDS FIXING
@@ -489,7 +492,7 @@ export const COMMON_BASES: ChainTokenList = {
     // @ts-ignore TYPE NEEDS FIXING
     ...WRAPPED_NATIVE_ONLY[ChainId.FUSE],
     // @ts-ignore TYPE NEEDS FIXING
-    SUSHI[ChainId.FUSE],
+    // SUSHI[ChainId.FUSE],
     // @ts-ignore TYPE NEEDS FIXING
     FUSE.WBTC,
     // @ts-ignore TYPE NEEDS FIXING
@@ -505,7 +508,7 @@ export const COMMON_BASES: ChainTokenList = {
     // @ts-ignore TYPE NEEDS FIXING
     ...WRAPPED_NATIVE_ONLY[ChainId.TELOS],
     // @ts-ignore TYPE NEEDS FIXING
-    SUSHI[ChainId.TELOS],
+    // SUSHI[ChainId.TELOS],
     // @ts-ignore TYPE NEEDS FIXING
     TELOS.WETH,
     // @ts-ignore TYPE NEEDS FIXING
@@ -583,7 +586,7 @@ export const BASES_TO_TRACK_LIQUIDITY_FOR: ChainTokenList = {
     // @ts-ignore TYPE NEEDS FIXING
     AVALANCHE.TIME,
     // @ts-ignore TYPE NEEDS FIXING
-    SUSHI[ChainId.AVALANCHE],
+    // SUSHI[ChainId.AVALANCHE],
   ],
   [ChainId.HARMONY]: [
     ...WRAPPED_NATIVE_ONLY[ChainId.HARMONY],
@@ -625,7 +628,7 @@ export const PINNED_PAIRS: {
 } = {
   [ChainId.ETHEREUM]: [
     // @ts-ignore TYPE NEEDS FIXING
-    [SUSHI[ChainId.ETHEREUM], WNATIVE[ChainId.ETHEREUM]],
+    [ETHEREUM.USDC, WNATIVE[ChainId.ETHEREUM]],
     [
       new Token(ChainId.ETHEREUM, '0x5d3a536E4D6DbD6114cc1Ead35777bAB948E3643', 8, 'cDAI', 'Compound Dai'),
       new Token(ChainId.ETHEREUM, '0x39AA39c021dfbaE8faC545936693aC917d5E7563', 8, 'cUSDC', 'Compound USD Coin'),

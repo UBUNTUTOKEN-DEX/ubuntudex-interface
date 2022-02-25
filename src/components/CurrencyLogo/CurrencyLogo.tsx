@@ -24,7 +24,15 @@ const BLOCKCHAIN = {
   [ChainId.AVALANCHE]: 'avalanche',
   [ChainId.HARDHAT]: 'hardhat',
 }
-
+function getCurrencySymbol(currency) {
+  if (currency.symbol === 'WBTC') {
+    return 'btc'
+  }
+  if (currency.symbol === 'WETH') {
+    return 'eth'
+  }
+  return currency.symbol.toLowerCase()
+}
 // @ts-ignore TYPE NEEDS FIXING
 export const getCurrencyLogoUrls = (currency): string[] => {
   const urls: string[] = []
@@ -35,6 +43,10 @@ export const getCurrencyLogoUrls = (currency): string[] => {
       `https://raw.githubusercontent.com/sushiswap/logos/main/network/${BLOCKCHAIN[currency.chainId]}/${
         currency.address
       }.jpg`
+    )
+    urls.push(
+      // @ts-ignore TYPE NEEDS FIXING
+      `https://raw.githubusercontent.com/UBUNTUTOKEN-DEX/icons/master/token/${getCurrencySymbol(currency)}.jpg`
     )
     urls.push(
       // @ts-ignore TYPE NEEDS FIXING
