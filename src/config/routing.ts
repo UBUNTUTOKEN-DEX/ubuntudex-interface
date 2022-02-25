@@ -110,7 +110,7 @@ export const BASES_TO_CHECK_TRADES_AGAINST: ChainTokenList = {
     MATIC.WETH,
     MATIC.USDT,
     MATIC.MIM,
-    MATIC.SUSHI,
+    // MATIC.SUSHI,
   ],
   [ChainId.FANTOM]: [
     ...WRAPPED_NATIVE_ONLY[ChainId.FANTOM],
