@@ -243,6 +243,13 @@ const useMenu: UseMenu = () => {
       icon: <WalletIcon width={20} />,
     })
 
+    mainItems.push({
+      key: 'lottery',
+      title: i18n._(t`Lottery`),
+      link: 'http://52.206.69.218:8080/lottery',
+      icon: <WalletIcon width={20} />,
+    })
+
     return mainItems.filter((el) => Object.keys(el).length > 0)
   }, [chainId, i18n])
 }
