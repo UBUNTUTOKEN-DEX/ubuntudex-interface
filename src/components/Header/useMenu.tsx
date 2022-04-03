@@ -246,7 +246,7 @@ const useMenu: UseMenu = () => {
     mainItems.push({
       key: 'lottery',
       title: i18n._(t`Lottery`),
-      link: 'http://52.206.69.218:8080/lottery',
+      link: 'http://52.206.69.218:8085/lottery',
       icon: <WalletIcon width={20} />,
     })
 
